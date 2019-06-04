@@ -1,0 +1,17 @@
+.ml-breadcrum-list{
+    padding-top: $simple-gap;
+    font-size: 14px;
+}
+
+.ml-breadcrum-list-item{
+    color: $ml-gray;
+}
+
+.ml-breadcrum-list-item:not(:last-child):after{
+    content: '>';
+    padding: 0 6px;
+}
+
+.ml-breadcrum-list-item:last-child{
+    font-weight: 900;
+}

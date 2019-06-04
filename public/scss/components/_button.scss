@@ -1,0 +1,15 @@
+.ml-button{
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: $double-gap;
+    border: none;
+}
+
+.ml-button_purchase{
+    background-color: $ml-blue;
+    color: #ffffff;
+}

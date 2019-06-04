@@ -1,0 +1,56 @@
+.ml-header{
+    background: $ml-yellow;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+.ml-header-offset{
+    height: 47px;
+    width: 100%;
+}
+
+.ml-logo{
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 53px;
+    top: 5px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.ml-search{
+    display: inline-block;
+    margin-left: 65px;
+    padding: 5px;
+    position: relative;
+}
+
+.ml-search-bar{
+    border: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    font-size: 18px;
+    padding: 8px 10px;
+    min-width: 870px;
+}
+
+.ml-search-button{
+    border: none;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    background: $ml-light-gray;
+    position: absolute;
+    top: 5px;
+    right: -35px;
+    bottom: 5px;
+    cursor: pointer;
+
+    .button-img{
+        vertical-align: middle;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+

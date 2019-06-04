@@ -1,0 +1,15 @@
+@import "variables";
+@import "components/all";
+
+body{
+    margin: 0;
+    background-color: $ml-light-gray;
+    font-family: Helvetica, sans-serif;
+}
+
+.ml-centered{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
