@@ -13,7 +13,7 @@
 **Cliente:**
 
 - HTML
-- JS (React v15.3.1)
+- JS (React v16.8.6)
 - CSS (Sass - node-sass v4.12.0 )
 
 **Servidor:**
